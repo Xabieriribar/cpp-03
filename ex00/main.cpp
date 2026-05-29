@@ -7,6 +7,7 @@ int main(void)
     ClapTrap c("Manolin");
     int     DefaultPoints = 10;
     int     DefaultEnergyPoints = 10;
+    int     RepairValue = 1;
     int     DefaultAttackDamage = 1;
     int     TestIndex = 0;
 
@@ -18,5 +19,6 @@ int main(void)
             b.takeDamage(DefaultAttackDamage);
         TestIndex++;
     }
+    a.beRepaired(RepairValue);
     return 0;
 }

@@ -1,10 +1,11 @@
-#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 
 int main(void)
 {
     ClapTrap a("Bartolomeo");
     ClapTrap b(a);
     ClapTrap c("Manolin");
+    ScavTrap d
     int     DefaultPoints = 10;
     int     DefaultEnergyPoints = 10;
     int     DefaultAttackDamage = 1;
