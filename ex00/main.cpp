@@ -6,7 +6,7 @@ int main(void)
     ClapTrap b(a);
     ClapTrap c("Manolin");
     int     DefaultPoints = 10;
-    int     DefaultEnergyPoints = 10;
+    int     DefaultEnergyPoints = 100;
     int     RepairValue = 1;
     int     DefaultAttackDamage = 1;
     int     TestIndex = 0;

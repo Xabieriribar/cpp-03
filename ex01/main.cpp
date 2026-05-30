@@ -2,22 +2,21 @@
 
 int main(void)
 {
-    ClapTrap a("Bartolomeo");
-    ClapTrap b(a);
-    ClapTrap c("Manolin");
-    ScavTrap d
-    int     DefaultPoints = 10;
-    int     DefaultEnergyPoints = 10;
-    int     DefaultAttackDamage = 1;
+    ScavTrap d("Scabitrabi");
+    ScavTrap e("Xabi");
+    int     DefaultPoints = 100;
+    int     DefaultEnergyPoints = 50;
+    int     DefaultAttackDamage = 20;
     int     TestIndex = 0;
 
-    c = b;
-    while (TestIndex < DefaultEnergyPoints + 1)
+    while (TestIndex < DefaultEnergyPoints + 1 && DefaultPoints > 0)
     {
-        a.attack("b");
+        d.attack("e");
         if (TestIndex != DefaultEnergyPoints)
-            b.takeDamage(DefaultAttackDamage);
+            e.takeDamage(DefaultAttackDamage);
+        DefaultPoints -= DefaultAttackDamage;
         TestIndex++;
     }
+    d.guardGate();
     return 0;
 }
