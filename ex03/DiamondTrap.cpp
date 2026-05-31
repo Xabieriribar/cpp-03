@@ -28,9 +28,10 @@ DiamondTrap& DiamondTrap::operator=(const DiamondTrap &other)
     if (this != &other)
     {
         ClapTrap::operator=(other);
-    this->HitPoints = other.HitPoints;
-    this->EnergyPoints = other.EnergyPoints;
-    this->AttackDamage = other.AttackDamage;
+        this->HitPoints = other.HitPoints;
+        this->EnergyPoints = other.EnergyPoints;
+        this->AttackDamage = other.AttackDamage;
+        this->name = other.name;
     }
     return (*this);
 }
