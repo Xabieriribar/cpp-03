@@ -3,7 +3,6 @@
 
 ScavTrap::ScavTrap(std::string Name) : ClapTrap(Name)
 {
-    this->name = name;
     this->HitPoints = 100;
     this->EnergyPoints = 50;
     this->AttackDamage = 20;
